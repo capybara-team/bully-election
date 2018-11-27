@@ -1,0 +1,47 @@
+{
+  "name": "bully-election",
+  "version": "1.0.0",
+  "description": "Bully Election Algorithm using NodeJS & HTTP",
+  "main": "./build/index.js",
+  "scripts": {
+    "watch": "babel -w src/ -d dist/ | bash watch.sh",
+    "babel-node": "babel-node --",
+    "build": "babel src -d build",
+    "dist": "babel src -d dist --presets=babili",
+    "start": "./start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capybara-team/bully-election.git"
+  },
+  "keywords": [
+    "nodejs",
+    "bully",
+    "election"
+  ],
+  "author": "Maxwell Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capybara-team/bully-election/issues"
+  },
+  "homepage": "https://github.com/capybara-team/bully-election",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babili": "^0.1.3",
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.18.6",
+    "power-assert": "^1.4.4"
+  }
+}
