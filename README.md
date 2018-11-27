@@ -2,6 +2,8 @@
 
 Bully Election Algorithm using NodeJS & HTTP. [GitHub](https://github.com/capybara-team/bully-election)
 
+Código desenvolvido como parte do trabalho da disciplina DCC064 Sistemas Distribuídos da UFJF, dentro do tópico de eleição de líderes. Trabalho desenvolvido pelos alunos [João Souza](http://github.com/SouzaJBR), [Maxwell Carvalho](http://github.com/maxjf1) e [Rodolpho Rossete](http://github.com/rrossete).
+
 ## Instalação
 
 Antes de começar, certifique-se que tem instalado em sua máquina o runtime [NodeJS](https://nodejs.org/en/)
