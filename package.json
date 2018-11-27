@@ -8,7 +8,7 @@
     "babel-node": "babel-node --",
     "build": "babel src -d build",
     "dist": "babel src -d dist --presets=babili",
-    "start": "./start.sh"
+    "start": "bash start.sh"
   },
   "repository": {
     "type": "git",
